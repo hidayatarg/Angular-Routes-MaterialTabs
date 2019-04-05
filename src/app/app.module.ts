@@ -15,6 +15,9 @@ import { AppRoutingModule } from './app-routing.module';
 import { ListComponent1Component } from './componenet1/list-component1/list-component1.component';
 import { AddComponent1Component } from './componenet1/add-component1/add-component1.component';
 import { UpdateComponent1Component } from './componenet1/update-component1/update-component1.component';
+import { AddComponent2Component } from './componenet2/add-component2/add-component2.component';
+import { ListComponent2Component } from './componenet2/list-component2/list-component2.component';
+import { UpdateComponent2Component } from './componenet2/update-component2/update-component2.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +27,10 @@ import { UpdateComponent1Component } from './componenet1/update-component1/updat
     Componenet3Component,
     ListComponent1Component,
     AddComponent1Component,
-    UpdateComponent1Component
+    UpdateComponent1Component,
+    AddComponent2Component,
+    ListComponent2Component,
+    UpdateComponent2Component
   ],
   imports: [
     BrowserModule,
