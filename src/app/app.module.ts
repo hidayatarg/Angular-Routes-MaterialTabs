@@ -12,13 +12,19 @@ import { Componenet1Component } from './componenet1/componenet1.component';
 import { Componenet2Component } from './componenet2/componenet2.component';
 import { Componenet3Component } from './componenet3/componenet3.component';
 import { AppRoutingModule } from './app-routing.module';
+import { ListComponent1Component } from './componenet1/list-component1/list-component1.component';
+import { AddComponent1Component } from './componenet1/add-component1/add-component1.component';
+import { UpdateComponent1Component } from './componenet1/update-component1/update-component1.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     Componenet1Component,
     Componenet2Component,
-    Componenet3Component
+    Componenet3Component,
+    ListComponent1Component,
+    AddComponent1Component,
+    UpdateComponent1Component
   ],
   imports: [
     BrowserModule,
